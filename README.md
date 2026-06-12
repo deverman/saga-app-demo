@@ -212,7 +212,8 @@ Run these prompts in order with your AI tool:
 
 1. `Prompts/01-site-brief.md`
 2. `Prompts/02-build-saga-site.md`
-3. `Prompts/03-polish-and-publish.md`
+3. `Prompts/02b-privacy-policy.md`
+4. `Prompts/03-polish-and-publish.md`
 
 If the AI asks follow-up questions, answer them before it edits the site. Clear answers produce a better landing page.
 
@@ -243,7 +244,7 @@ Before publishing, open the local site and check:
 1. Commit and push your repository, including the `docs/` folder.
 2. On GitHub, open your repository settings.
 3. Go to **Pages**.
-4. Set the build and deployment source to **GitHub Actions**.
+4. Set the build and deployment source to "Deploy from Branch" choose branch "main" and the folder "\docs"
 5. Open the **Actions** tab and wait for the Pages workflow to finish.
 6. Open the Pages URL shown by GitHub.
 
