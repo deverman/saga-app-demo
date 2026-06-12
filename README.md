@@ -65,7 +65,9 @@ brew --version
 
 If Terminal says `command not found`, install Homebrew from the official instructions:
 
-<https://docs.brew.sh/Installation.html>
+<https://brew.sh/>
+
+NOTE: Be sure to follow the instructions after running the install command in order to add brew to your path.
 
 After installation, close and reopen Terminal, then run `brew --version` again.
 
